@@ -1,6 +1,6 @@
 = README
 
-release::	2.7.0
+release::	2.8.0
 copyright::	copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 
 
