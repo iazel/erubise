@@ -1,6 +1,6 @@
 ##
 ## $Rev$
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## $Date$
 ##
 
@@ -187,7 +187,7 @@ END
 
   def test_version    # -v
     @options = '-v'
-    @expected = (("$Release: 2.7.0 $" =~ /[.\d]+/) && $&) + "\n"
+    @expected = (("$Release: 2.8.0 $" =~ /[.\d]+/) && $&) + "\n"
     @filename = false
     _test()
   end

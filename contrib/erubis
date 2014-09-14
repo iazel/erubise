@@ -1,20 +1,20 @@
 #!/usr/bin/env ruby
 
 ###
-### $Release: 2.7.0 $
+### $Release: 2.8.0 $
 ### copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ###
 
 #--begin of require 'erubis/main'
 ###
-### $Release: 2.7.0 $
+### $Release: 2.8.0 $
 ### copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ###
 
 require 'yaml'
 #--begin of require 'erubis'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -62,25 +62,25 @@ require 'yaml'
 
 
 module Erubis
-  VERSION = ('$Release: 2.7.0 $' =~ /([.\d]+)/) && $1
+  VERSION = ('$Release: 2.8.0 $' =~ /([.\d]+)/) && $1
 end
 
 #--begin of require 'erubis/engine'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
 
 #--begin of require 'erubis/generator'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
 #--begin of require 'erubis/util'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -184,7 +184,7 @@ end
 #--end of require 'erubis/generator'
 #--begin of require 'erubis/converter'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -543,13 +543,13 @@ end
 #--end of require 'erubis/converter'
 #--begin of require 'erubis/evaluator'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
 #--begin of require 'erubis/error'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -574,7 +574,7 @@ end
 #--end of require 'erubis/error'
 #--begin of require 'erubis/context'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -859,7 +859,7 @@ end
 #requier 'erubis/util'
 #--begin of require 'erubis/helper'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -908,7 +908,7 @@ end
 #--end of require 'erubis/helper'
 #--begin of require 'erubis/enhancer'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -1634,7 +1634,7 @@ end
 #require 'erubis/tiny'
 #--begin of require 'erubis/engine/eruby'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -1770,7 +1770,7 @@ end
 
 #--begin of require 'erubis/local-setting'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -1782,7 +1782,7 @@ end
 #--end of require 'erubis'
 #--begin of require 'erubis/tiny'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -1928,7 +1928,7 @@ end
 #--end of require 'erubis/tiny'
 #--begin of require 'erubis/engine/enhanced'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2056,7 +2056,7 @@ end
 #--end of require 'erubis/engine/enhanced'
 #--begin of require 'erubis/engine/optimized'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2186,7 +2186,7 @@ end
 #--already included require 'erubis/engine/eruby'
 #--begin of require 'erubis/engine/ephp'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2287,7 +2287,7 @@ end
 #--end of require 'erubis/engine/ephp'
 #--begin of require 'erubis/engine/ec'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2406,7 +2406,7 @@ end
 #--end of require 'erubis/engine/ec'
 #--begin of require 'erubis/engine/ecpp'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2521,7 +2521,7 @@ end
 #--end of require 'erubis/engine/ecpp'
 #--begin of require 'erubis/engine/ejava'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2633,7 +2633,7 @@ end
 #--end of require 'erubis/engine/ejava'
 #--begin of require 'erubis/engine/escheme'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2749,7 +2749,7 @@ end
 #--end of require 'erubis/engine/escheme'
 #--begin of require 'erubis/engine/eperl'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
@@ -2846,7 +2846,7 @@ end
 #--end of require 'erubis/engine/eperl'
 #--begin of require 'erubis/engine/ejavascript'
 ##
-## $Release: 2.7.0 $
+## $Release: 2.8.0 $
 ## copyright(c) 2006-2011 kuwata-lab.com all rights reserved.
 ##
 
